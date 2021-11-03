@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+        <title>WEB</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;600&display=swap" rel="stylesheet">
+
+        <link href="Estilo.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <div id="container"> 
+        
+        <center>
+
+            <div style="width: 80%;">
+
+                <h1>INSCRIPCION ESTUDIANTE NUEVO UMD</h1> 
+                <a class = "navbar-brand" href="#"> </a><img src="../Imagenes/LogoUMD.png" class = "logo-brand" alt="logo">
+    
+            </div>
+
+        </center>   
+        
+        <br>
+        <br>
+        <section id = "Portada">
+            <div class = "container">
+                <div class = "content-center">
+                <h1>TE DAMOS LA BIENVENIDA AL PROCESO QUE LABRARA TU FUTURO</h1>
+                <P>A continuacion completa el formulario para que puedas realizar el proceso de inscripcion en la Universidad</P>
+
+            </div>
+            </div>
+        </section>
+
+        <br>
+        <br>
+        <div class = container style="border: 3px solid black;">
+        <form action="../Controlador/Procesador.php" method="POST">
+
+            <br>
+            <br>
+            Nombres <input class = "form-control" type="text" name="txtNombre" value="" required/><br>
+            <br>
+            Apellidos <input class = "form-control" type="text" name="txtApellido" value="" required/><br>
+            <br>
+            Edad <input class = "form-control" type="number" name="txtEdad" value="" required/><br>
+            <br>
+            Tipo de identificacion <select class = "form-control" name = "txtTipoIdentificacion" required><br>
+
+                <option value = "cc">Cedula de ciudania</option> 
+                <option value = "ti">Tarjeta de identidad</option>
+
+                </select> <br>
+
+            <br>
+            Numero de identificacion <input class = "form-control" type="text" name="txtNumeroIdentificacion" value="" required/><br>
+            <br>
+
+            Carrera a la que desea ingresar <select class = "form-control" name = "txtCarrera" required><br>
+
+                <option value = "Ingenieria de Sistemas">Ingenieria de Sistemas</option> 
+                <option value = "Ingenieria Industrial">Ingenieria Industrial</option>
+                <option value = "Ingenieria Civil">Ingenieria Civil</option>
+                <option value = "Ingenieria Agroecologica">Ingenieria Agroecologica</option>
+                <option value = "Licenciatura en Ingles">Licenciatura en Ingles</option>
+                <option value = "Licenciatura en Pedagogia infantil">Licenciatura en Pedagogia infantil</option>
+                <option value = "Licenciatura en Deportes">Licenciatura en Deportes</option>
+                <option value = "Licenciatura en Artes">Licenciatura en Artes</option>
+                <option value = "Comunicacion Social">Comunicacion Social</option>
+                <option value = "Psicologia">Psicologia</option>
+                <option value = "Administracion de Empresas">Administracion de Empresas</option>
+                <option value = "Trabajo Social">Trabajo Social</option>
+                <option value = "Contaduria Publica">Contaduria Publica</option>
+
+                </select> <br>
+            
+            <br> Sede <select class = "form-control" name = "txtSede" required><br>
+
+                <option value = "Sede Principal">Sede Principal</option> 
+                <option value = "Bogota Norte">Bogota Norte</option>
+                <option value = "Bogota Sur">Bogota Sur</option>
+                <option value = "Sede Soacha">Sede Soacha</option>
+    
+                </select> <br>
+    
+            <br>
+            <br>
+
+
+            
+            <br> <input type="submit" name= "register" value="Enviar" class = "btn btn-warning"/>
+
+        </form>
+        </div>
+
+        <br>
+        <br>
+        <section id="portfolio">
+        <div class = "row">
+            <div class = "col-md-6">
+                <div class = "portfolio-container">
+                    <div class = "portfolio-details">
+
+                    </div>
+                    <img src = "../Imagenes/LogoSistemas.png" class = "img-fluid" alt = "portfolio 1">
+
+                </div>
+            </div>
+
+        
+            <div class = "col-md-6">
+                <div class = "portfolio-container" >
+                    <div class = "portfolio-details">
+                        
+                    </div>
+                    <img src = "../Imagenes/LogoIndustrial.png" class = "img-fluid" alt = "portfolio 2" >
+
+                </div>
+            </div>
+
+            <div class = "col-md-6">
+                <div class = "portfolio-container" >
+                    <div class = "portfolio-details">
+                        
+                    </div>
+                    <img src = "../Imagenes/LogoCivil.jpg" class = "img-fluid" alt = "portfolio 3" >
+
+                </div>
+            </div>
+
+            <div class = "col-md-6">
+                <div class = "portfolio-container" >
+                    <div class = "portfolio-details">
+                        
+                    </div>
+                    <img src = "../Imagenes/LogoAgrocologia.jpg" class = "img-fluid" alt = "portfolio 4" >
+
+                </div>
+            </div>
+
+            <div class = "col-md-6">
+                <div class = "portfolio-container" >
+                    <div class = "portfolio-details">
+                        
+                    </div>
+                    <img src = "../Imagenes/LogoIngles.jpg" class = "img-fluid" alt = "portfolio 5" >
+
+                </div>
+            </div>
+
+            <div class = "col-md-6">
+                <div class = "portfolio-container" >
+                    <div class = "portfolio-details">
+                        
+                    </div>
+                    <img src = "../Imagenes/LogoInfantil.jpg" class = "img-fluid" alt = "portfolio 6" >
+
+                </div>
+            </div>
+
+            <div class = "col-md-6">
+                <div class = "portfolio-container" >
+                    <div class = "portfolio-details">
+                        
+                    </div>
+                    <img src = "../Imagenes/LogoDepo.jpg" class = "img-fluid" alt = "portfolio 7" >
+
+                </div>
+            </div>
+
+            <div class = "col-md-6">
+                <div class = "portfolio-container" >
+                    <div class = "portfolio-details">
+                        
+                    </div>
+                    <img src = "../Imagenes/LogoArtes.png" class = "img-fluid" alt = "portfolio 8" >
+
+                </div>
+            </div>
+
+            <div class = "col-md-6">
+                <div class = "portfolio-container" >
+                    <div class = "portfolio-details">
+                        
+                    </div>
+                    <img src = "../Imagenes/LogoComuSocial.jpg" class = "img-fluid" alt = "portfolio 9" >
+
+                </div>
+            </div>
+
+            <div class = "col-md-6">
+                <div class = "portfolio-container" >
+                    <div class = "portfolio-details">
+                        
+                    </div>
+                    <img src = "../Imagenes/LogoPsicologia.png" class = "img-fluid" alt = "portfolio 10" >
+
+                </div>
+            </div>
+
+            <div class = "col-md-6">
+                <div class = "portfolio-container" >
+                    <div class = "portfolio-details">
+                        
+                    </div>
+                    <img src = "../Imagenes/Logo1.jpg" class = "img-fluid" alt = "portfolio 11" >
+
+                </div>
+            </div>
+
+            <div class = "col-md-6">
+                <div class = "portfolio-container" >
+                    <div class = "portfolio-details">
+                        
+                    </div>
+                    <img src = "../Imagenes/LogoTrabajo.jpg" class = "img-fluid" alt = "portfolio 12" >
+
+                </div>
+            </div>
+
+            <div class = "col-md-6">
+                <div class = "portfolio-container" >
+                    <div class = "portfolio-details"> 
+                        
+                    </div>
+                    <img src = "../Imagenes/LogoContaduria.jpg" class = "img-fluid" alt = "portfolio 13" >
+
+                </div>
+            </div>
+
+        </div>
+
+        </section>
+        
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+        
+
+        <?php
+
+        include("Procesador.php");
+
+
+        ?>
+
+    </body>
+
+</html>
